@@ -1,11 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hoja de vida</title>
-</head>
-<body>
-    <h1> empezamos a crear la hoja de vida</h1>
-</body>
+  </head>
+  <body>
+    <head>
+      <img
+        src="imagenes/image.png"
+        alt="foto de perfil "
+        width="190"
+        height="230"
+      />
+      <h1>Hoja de vida de Andres Esteban Correa</h1>
+      <nav>
+        <ul>
+          <a href="#Datos">Datos personales</a>
+        </ul>
+        <ul>
+          <a href="#formacion">Formación Académica</a>
+        </ul>
+        <ul>
+          <a href="#experiencia">Experiencia Laboral</a>
+        </ul>
+        <ul>
+          <a href="#contacto">Contáctame</a>
+        </ul>
+      </nav>
+      <hr />
+
+      <!-- Seccion de datos personales -->
+    </head>
+    <section id="Datos">
+      <h2>DATOS PERSONALES</h2>
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>NOMBRE Y APELLIDO</th>
+          <th>DOCUMENTO</th>
+          <th>TELEFONO</th>
+          <th>CORREO ELETRÓNICO</th>
+          <th>DIRECCION DE RESIDENCIA</th>
+        </tr>
+        <tr>
+          <td>Andres Esteban Correa Ramos</td>
+          <td>1007853382</td>
+          <td>3134513793</td>
+          <td>andres.correar@est.iudigital.edu.co / estebancr2001@gmail.com</td>
+          <td>Cr 50 #51-110</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Seccion de formacion Academica -->
+    <section id="formacion">
+      <h2>FORMACION ACADEMICA</h2>
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>INSTITUCIÓN/ENTIDAD</th>
+          <th>TÍTULO</th>
+          <th>FECHA DE GRADUACION</th>
+        </tr>
+        <tr>
+          <td>Servicio Nacional de Aprendizaje</td>
+          <td>Técnico en Auxiliar farmacéutico </td>
+          <td>2022</td>
+        </tr>
+        <tr>
+            <td>Institución Educativa Eduardo Espitia Romero</td>
+            <td>Bachiller Académico</td>
+            <td>2019</td>
+          </tr>
+      </table>
+    </section>
+
+    <!-- Seccion de experiencia laboral -->
+
+    <section id="experiencia">
+        <h2>EXPERIENCIA LABORAL</h2>
+        <table border="1" cellpadding="10">
+          <tr>
+            <th>INSTITUCIÓN/ENTIDAD</th>
+            <th>CARGO</th>
+            <th>TIEMPO</th>
+            <th>TELÉFONO</th>
+          </tr>
+          <tr>
+            <td>Servicio Nacional de Aprendizaje</td>
+            <td>Auxiliar de farmacia</td>
+            <td>1 año</td>
+            <td>321 546 1999</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Pie de página con formulario de contacto -->
+    <footer>
+        <h2 id="contacto">CONTACTAME</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Encuéntrame en:</p>
+        <a href="https://www.facebook.com/share/8Kg8NrgKZFqUVAh6/" target="_blank">Facebook</a> 
+        <a href="https://github.com/AndresAnmin?tab=repositories" target="_blank">GitHub</a>
+    </footer>
+
+  </body>
 </html>
